@@ -1,0 +1,47 @@
+body{
+    background-color: #333;
+    padding-top: 3rem;
+}
+
+.container{
+    font-family: Helvetica, sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+.container .text{
+    font-style: italic;
+    margin-bottom: 0.4rem;
+}
+
+.container .author{
+    font-weight: bold;
+    color:#fff;
+}
+
+.button{
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: #299120;
+    color:#fff;
+    border:none;
+    width:8rem;
+    height:3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: #1cca0d;
+    color:#000;
+}
+
+
+
